@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/f2e-mp3-player",
   siteMetadata: {
     title: `Music Player`,
     description: `Designed by Tia`,
