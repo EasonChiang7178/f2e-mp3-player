@@ -33,6 +33,7 @@ const PageWrapperPosed = posed.section({
 
 export const PageWrapper = styled(PageWrapperPosed)`
   position: relative;
+  height: 100%;
   max-height: ${`calc(100% - ${BOTTOM_NAVIGATOR_HEIGHT}px)`};
   overflow: auto;
 `
