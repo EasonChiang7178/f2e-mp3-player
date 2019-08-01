@@ -12,11 +12,11 @@ const BottomNavigator = ({ className }) => {
   return (
     <BottomNavList className={className}>
       <NavLink to={homePath}>
-        <img src={homeIconPath} />
+        <img src={homeIconPath} alt="navigate to home" />
         <LinkText>Home</LinkText>
       </NavLink>
       <NavLink to={playListPath}>
-        <img src={listIconPath} />
+        <img src={listIconPath} alt="navigate to play list" />
         <LinkText>PlayList</LinkText>
       </NavLink>
     </BottomNavList>
