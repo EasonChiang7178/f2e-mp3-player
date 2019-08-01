@@ -5,7 +5,7 @@ import { createGlobalStyle } from "styled-components"
 const Global = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Helvetica", 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans'sans-serif;
   }
 `
 
