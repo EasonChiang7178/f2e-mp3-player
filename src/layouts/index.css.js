@@ -16,7 +16,7 @@ export const PageContainer = styled.main`
 
 export const PageWrapper = styled.section`
   position: relative;
-  max-height: ${`calc(100% - ${BOTTOM_NAVIGATOR_HEIGHT}px)`};
+  max-height: ${`calc(100vh - ${BOTTOM_NAVIGATOR_HEIGHT}px)`};
   overflow: auto;
 `
 

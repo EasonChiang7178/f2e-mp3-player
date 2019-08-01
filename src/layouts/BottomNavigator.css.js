@@ -23,7 +23,7 @@ export const NavLink = styled(Link).attrs(() => ({
   text-decoration: none;
   color: white;
   opacity: .7;
-  transition: opacity .3s ease;
+  transition: opacity .15s ease;
 
   &:hover {
     opacity: 1;
