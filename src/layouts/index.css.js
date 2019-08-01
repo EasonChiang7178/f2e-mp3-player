@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import posed from "react-pose"
 
 import BottomNav from "./BottomNavigator"
 import { BOTTOM_NAVIGATOR_HEIGHT } from "../constants/LAYOUTS"
@@ -14,9 +15,25 @@ export const PageContainer = styled.main`
   box-shadow: 0 3px 8px #cccccc;
 `
 
-export const PageWrapper = styled.section`
+const PageWrapperPosed = posed.section({
+  enter: {
+    opacity: 1,
+    delay: 160,
+    transition: {
+      opacity: { duration: 100 },
+    },
+  },
+  exit: {
+    opacity: 0,
+    transition: {
+      opacity: { duration: 100 },
+    },
+  },
+})
+
+export const PageWrapper = styled(PageWrapperPosed)`
   position: relative;
-  max-height: ${`calc(100vh - ${BOTTOM_NAVIGATOR_HEIGHT}px)`};
+  max-height: ${`calc(100% - ${BOTTOM_NAVIGATOR_HEIGHT}px)`};
   overflow: auto;
 `
 
