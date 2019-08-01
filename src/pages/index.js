@@ -7,7 +7,7 @@ import { YELLOW_3 } from "../constants/COLORS"
 
 const Container = styled.div`
   padding: 30px 30px 0;
-  height: 100%;
+  height: calc(100% - 30px);
   background: ${YELLOW_3};
 `
 

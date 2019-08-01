@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
-  margin-top: 19px;
+  padding-top: 19px;
   margin-bottom: 29px;
   height: 50px;
   display: flex;
