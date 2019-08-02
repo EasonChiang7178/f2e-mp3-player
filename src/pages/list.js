@@ -1,13 +1,13 @@
 import React from "react"
-import SEO from "../layouts/SEO"
 
-const IndexPage = () => (
+import SEO from "../layouts/SEO"
+import PlayList from "../components/PlayList"
+
+const ListPage = () => (
   <>
     <SEO title="Music Player | Play List" />
-
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <PlayList />
   </>
 )
 
-export default IndexPage
+export default ListPage
