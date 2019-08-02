@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+import { YELLOW_4 } from "../constants/COLORS"
+
 const Wrapper = styled.div`
   padding-top: 19px;
   margin-bottom: 29px;
@@ -17,6 +19,7 @@ const Header = styled.h2`
   line-height: 32px;
   color: white;
   font-family: "Helvetica Neue";
+  text-shadow: 0 3px 17px ${YELLOW_4};
 `
 
 const Greeting = () => {
