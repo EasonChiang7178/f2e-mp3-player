@@ -66,7 +66,9 @@ class PlayerProvider extends React.PureComponent {
   }
 
   setPlayList = (playListName) => {
-    this.addListToHistory(playListName)
+    setTimeout(() => {
+      this.addListToHistory(playListName)
+    }, 300)
 
     this.setState(state => ({
       playing: {

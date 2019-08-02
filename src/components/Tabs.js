@@ -2,9 +2,7 @@ import styled, { keyframes } from "styled-components"
 import { Tab as RawTab, Tabs as RawTabs, TabList as RawTabList, TabPanel as RawTabPanel } from "react-tabs"
 
 export const Tabs = styled(RawTabs)`
-  & + & {
-    margin-top: 40px;
-  }
+  margin-bottom: 40px;
 `
 
 export const TabList = styled(RawTabList)`
@@ -33,6 +31,10 @@ export const Tab = styled(RawTab)`
     border-bottom: 4px solid white;
   }
   
+  &:focus {
+    outline: none;
+  }
+
   & + & {
     margin-left: 30px;
   }
