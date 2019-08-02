@@ -1,7 +1,14 @@
-import React from "react"
+import React, { useContext } from "react"
 import { Tabs, TabList, Tab, TabPanel } from "./Tabs"
 
+import playContext from "../contexts/PlayerContext"
+import PlayListCarousel from "../components/PlayListCarousel"
+
 const PlayListExplorer = () => {
+  const playLists = useContext(playContext).playLists
+  const recommendedLists = playLists.filter(list => list.category === "recommendation")
+  const discoveryLists = playLists.filter(list => list.category === "discovery")
+
   return (
     <Tabs>
       <TabList>
@@ -10,10 +17,10 @@ const PlayListExplorer = () => {
       </TabList>
 
       <TabPanel>
-        <h2>First</h2>
+        <PlayListCarousel lists={recommendedLists} />
       </TabPanel>
       <TabPanel>
-        <h2>Second</h2>
+        <PlayListCarousel lists={discoveryLists} />
       </TabPanel>
     </Tabs>
   )

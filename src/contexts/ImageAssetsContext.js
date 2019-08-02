@@ -3,8 +3,8 @@ import React from "react"
 const defaultContextValue = {}
 const Context = React.createContext(defaultContextValue)
 
-const ImageAssetsProvider = ({ imageAsset, children }) => (
-  <Context.Provider value={imageAsset}>
+const ImageAssetsProvider = ({ imageAssets, children }) => (
+  <Context.Provider value={imageAssets}>
     {children}
   </Context.Provider>
 )

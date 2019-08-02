@@ -9,7 +9,7 @@ export const Tabs = styled(RawTabs)`
 
 export const TabList = styled(RawTabList)`
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 25px;
   padding: 0;
   height: 32px;
   list-style-type: none;
@@ -44,12 +44,13 @@ const fadeIn = keyframes`
 `
 
 export const TabPanel = styled(RawTabPanel)`
-  opacity: .3;
+  opacity: 0;
 
   &.react-tabs__tab-panel--selected {
     animation-name: ${fadeIn};
     animation-duration: .6s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+    animation-delay: .3s;
   }
 `
