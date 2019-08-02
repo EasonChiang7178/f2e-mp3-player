@@ -1,9 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+
 import Layout from "../layouts"
+import AppProvider from "../contexts/AppProvider";
 
 const wrapPageElement = ({ element, props }) => (
-  <Layout {...props}>{element}</Layout>
+  <AppProvider>
+    <Layout {...props}>{element}</Layout>
+  </AppProvider>
 )
 
 wrapPageElement.propTypes = {
