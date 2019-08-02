@@ -18,7 +18,7 @@ const PlayList = () => {
   const player = useContext(playerContext)
 
   const curPlayList = player.playLists.find(
-    list => list.name === player.playing.playList_name
+    list => list.name === player.playing.playListName
   )
 
   return (

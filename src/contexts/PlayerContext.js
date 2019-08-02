@@ -9,9 +9,10 @@ const defaultContextValue = {
     status: "",
     song_id: "",
     order: "shuffle",
-    playList_name: "",
+    playListName: "",
     volume: 70
   },
+  setPlayList: () => {}
 }
 const Context = React.createContext(defaultContextValue)
 
@@ -37,13 +38,23 @@ class PlayerProvider extends React.PureComponent {
         status: "",
         song_id: "",
         order: "shuffle",
-        playList_name: props.playLists.length > 0
+        playListName: props.playLists.length > 0
           ? props.playLists[0].name
           : ""
         ,
         volume: 70,
       },
+      setPlayList: this.setPlayList
     }
+  }
+
+  setPlayList = (playListName) => {
+    this.setState(state => ({
+      playing: {
+        ...state.playing,
+        playListName: playListName
+      }
+    }))
   }
 
   render = () => {
