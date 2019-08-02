@@ -4,7 +4,6 @@ import PropTypes from "prop-types"
 import { Wrapper, Cover, InfoWrapper, Name, PlayButton } from "./Header.css"
 
 const Header = ({ name, cover }) => {
-
   return (
     <Wrapper>
       <Cover fluid={cover} />

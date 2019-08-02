@@ -9,6 +9,7 @@ export const Wrapper = styled.div`
   position: relative;
   height: 180px;
   margin-bottom: 51px;
+  flex: 0 0 auto;
 `
 
 export const Cover = styled(Img)`
