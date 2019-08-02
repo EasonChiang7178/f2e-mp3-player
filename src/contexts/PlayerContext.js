@@ -1,6 +1,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+const MAX_HISTORY_SIZE = 5
+
 const defaultContextValue = {
   mp3Assets: {},
   playLists: [],
@@ -48,7 +50,24 @@ class PlayerProvider extends React.PureComponent {
     }
   }
 
+  addListToHistory = (playListName) => {
+    const curListInHistoryIndex = this.state.history.findIndex(listName => listName === playListName)
+    const historyCopied = [...this.state.history]
+
+    if (curListInHistoryIndex !== -1) {
+      historyCopied.splice(curListInHistoryIndex, 1)
+    } else if (historyCopied.length >= MAX_HISTORY_SIZE) {
+      historyCopied.splice(0, historyCopied.length - (MAX_HISTORY_SIZE - 1))
+    }
+
+    this.setState(() => ({
+      history: [playListName, ...historyCopied],
+    }))
+  }
+
   setPlayList = (playListName) => {
+    this.addListToHistory(playListName)
+
     this.setState(state => ({
       playing: {
         ...state.playing,
