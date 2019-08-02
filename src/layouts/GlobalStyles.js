@@ -9,6 +9,8 @@ const Global = createGlobalStyle`
   body {
     font-family: "Helvetica", 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', sans-serif;
     background-color: ${YELLOW_0};
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
   }
 `
 
