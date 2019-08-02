@@ -1,7 +1,8 @@
 import React, { useContext } from "react"
 
 import imageAssetsContext from "../../contexts/ImageAssetsContext"
-import { Container, PlayListBlock } from "./index.css"
+import PlayListBlock from "./PlayListBlock"
+import { Container } from "./index.css"
 
 const PlayListCarousel = ({ lists }) => {
   const imageAssets = useContext(imageAssetsContext)
