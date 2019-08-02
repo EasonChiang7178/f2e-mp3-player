@@ -1,0 +1,50 @@
+{
+  "name": "Relaxing Time",
+  "description": "Donec fringilla mauris eget bibendum tempus. Curabitur sit amet sodales urna, ut dignissim.",
+  "cover": "relaxing_time",
+  "items": [
+    {
+      "fileName": "Birds_in_Flight",
+      "name": "Birds in Flight",
+      "author": "Dan Lebowitz",
+      "duration": "2:25"
+    },
+    {
+      "fileName": "Campfire_Song",
+      "name": "Campfire Song",
+      "author": "Chris Haugen",
+      "duration": "2:44"
+    },
+    {
+      "fileName": "Casey_Dont_You_Fret",
+      "name": "Casey Don't You Fret",
+      "author": "Dan Lebowitz",
+      "duration": "2:22"
+    },
+    {
+      "fileName": "Gimme_Back_My_Ya_Ya",
+      "name": "Gimme Back My Ya Ya",
+      "author": "Dan Lebowitz",
+      "duration": "1:56"
+    },
+    {
+      "fileName": "Glen_Canyon",
+      "name": "Glen Canyon",
+      "author": "Dan Lebowitz",
+      "duration": "2:35"
+    },
+    {
+      "fileName": "Morning_Mandolin",
+      "name": "Morning Mandolin",
+      "author": "Chris Haugen",
+      "duration": "3:39"
+    },
+    {
+      "fileName": "Room_For_Two",
+      "name": "Room For Two?",
+      "author": "Dan Lebowitz",
+      "duration": "1:58"
+    }
+  ],
+  "category": "recommendation"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Happy Hour",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae urna sit amet.",
+  "cover": "happy_hour",
+  "items": [
+    {
+      "fileName": "555",
+      "name": "555",
+      "author": "Endless Love",
+      "duration": "1:35"
+    },
+    {
+      "fileName": "AI_2",
+      "name": "AI 2",
+      "author": "Vibe Mountain",
+      "duration": "1:54"
+    },
+    {
+      "fileName": "Hyperspeed",
+      "name": "Hyperspeed",
+      "author": "Eveningland",
+      "duration": "1:48"
+    },
+    {
+      "fileName": "Operatic_3",
+      "name": "Operatic 3",
+      "author": "Vibe Mountain",
+      "duration": "3:14"
+    },
+    {
+      "fileName": "Perihelion",
+      "name": "Perihelion",
+      "author": "Cooper Cannell",
+      "duration": "2:39"
+    },
+    {
+      "fileName": "Santorini_2",
+      "name": "Santorini 2",
+      "author": "Vibe Mountain",
+      "duration": "1:35"
+    },
+    {
+      "fileName": "Springhtly_Pursuit",
+      "name": "Springhtly Pursuit",
+      "author": "Cooper Cannell",
+      "duration": "1:46"
+    },
+    {
+      "fileName": "The_Plans_Working",
+      "name": "The Plan's Working",
+      "author": "Cooper Cannell",
+      "duration": "1:42"
+    },
+    {
+      "fileName": "Trapped",
+      "name": "Trapped",
+      "author": "Quincas Moreira",
+      "duration": "3:25"
+    }
+  ],
+  "category": "discovery"
+}

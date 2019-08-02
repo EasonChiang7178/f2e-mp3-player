@@ -1,0 +1,62 @@
+{
+  "name": "Peace",
+  "description": "Pellentesque eu enim felis. Ut ultrices maximus ante id maximus. Sed vel nisl.",
+  "cover": "peace",
+  "items": [
+    {
+      "fileName": "A_Slow_Dream",
+      "name": "A Slow Dream",
+      "author": "Emily A. Sprague",
+      "duration": "2:20"
+    },
+    {
+      "fileName": "After_All",
+      "name": "After All",
+      "author": "Geographer",
+      "duration": "3:07"
+    },
+    {
+      "fileName": "Cast_of_Pods",
+      "name": "Cast of Pods",
+      "author": "Doug Maxwell",
+      "duration": "1:57"
+    },
+    {
+      "fileName": "Cloud_Control",
+      "name": "Cloud Control",
+      "author": "The Whole Other",
+      "duration": "2:25"
+    },
+    {
+      "fileName": "Jessica",
+      "name": "Jessica",
+      "author": "Joey Pecoraro",
+      "duration": "2:47"
+    },
+    {
+      "fileName": "Mind_And_Eye_Journey",
+      "name": "Mind And Eye Journey",
+      "author": "Emily A. Sprague",
+      "duration": "3:10"
+    },
+    {
+      "fileName": "Patent_Doll",
+      "name": "Patent Doll",
+      "author": "Freedom Trail Studio",
+      "duration": "4:01"
+    },
+    {
+      "fileName": "Serenity",
+      "name": "Serenity",
+      "author": "Aakash Gandhi",
+      "duration": "2:03"
+    },
+    {
+      "fileName": "Water_Lillies",
+      "name": "Water Lillies",
+      "author": "Density & Time",
+      "duration": "3:09"
+    }
+  ],
+  "category": "recommendation"
+}
