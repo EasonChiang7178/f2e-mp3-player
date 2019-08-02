@@ -1,8 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 
-import Greeting from "../components/Greeting"
 import SEO from "../layouts/SEO"
+import Greeting from "../components/Greeting"
+import PlayListExplorer from "../components/PlayListExplorer"
+
 import { YELLOW_3 } from "../constants/COLORS"
 
 const Container = styled.div`
@@ -16,6 +18,7 @@ const IndexPage = () => (
     <SEO title="Music Player" />
 
     <Greeting />
+    <PlayListExplorer />
   </Container>
 )
 
